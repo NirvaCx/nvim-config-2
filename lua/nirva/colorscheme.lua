@@ -5,5 +5,5 @@ if vim.env.TERM == 'linux' then
     vim.cmd("colorscheme vim")
 else
     vim.o.termguicolors = true
-    vim.cmd("colorscheme habamax")
+    vim.cmd("colorscheme catppuccin")
 end

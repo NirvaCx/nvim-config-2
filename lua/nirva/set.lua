@@ -1,5 +1,10 @@
-vim.o.number = true
+-- disable netrw in favour of nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- num column
 vim.o.relativenumber = true
+vim.o.number = true
 vim.o.signcolumn = "auto"
 
 -- tab
