@@ -5,7 +5,8 @@ return {
             sorter = "case_sensitive",
         },
         view = {
-            width = 30,
+            width = 45,
+            side = "right",
         },
         renderer = {
             group_empty = true,
@@ -16,7 +17,7 @@ return {
         disable_netrw = false,
         actions = {
             open_file = {
-                quit_on_open = true,
+                quit_on_open = false,
             },
         },
     }
