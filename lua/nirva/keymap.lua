@@ -28,7 +28,7 @@ vim.keymap.set("n", "<Leader>d", vim.diagnostic.open_float, { desc = "Show diagn
 
 -- autocommands for quitting help and other pages
 vim.api.nvim_create_autocmd('FileType', {
-    pattern = { 'help', 'checkhealth', 'lazy', 'TelescopePrompt' },
+    pattern = {'markdown', 'help', 'checkhealth', 'lazy', 'TelescopePrompt' },
     command = 'nnoremap <buffer> q <cmd>q!<cr>'
 })
 
